@@ -22,7 +22,7 @@
 /* Begin PBXFileReference section */
 		E516194F264FE48800D51CC8 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E5161950264FE48800D51CC8 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
-		E5161954264FE64E00D51CC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "MyBrowser/Supporting files/README.md"; sourceTree = SOURCE_ROOT; };
+		E5161954264FE64E00D51CC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E5F42E3A24F5863A00224461 /* MyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F42E3D24F5863A00224461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F42E3F24F5863A00224461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +52,6 @@
 				E5F42E3D24F5863A00224461 /* AppDelegate.swift */,
 				E5F42E3F24F5863A00224461 /* SceneDelegate.swift */,
 				E5F42E4B24F5863B00224461 /* Info.plist */,
-				E5161954264FE64E00D51CC8 /* README.md */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -95,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				E5F42E3C24F5863A00224461 /* MyBrowser */,
+				E5161954264FE64E00D51CC8 /* README.md */,
 				E5F42E3B24F5863A00224461 /* Products */,
 				E5F42E5124F588C100224461 /* Frameworks */,
 			);
