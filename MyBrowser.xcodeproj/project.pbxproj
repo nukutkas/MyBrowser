@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E5161951264FE48800D51CC8 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E516194F264FE48800D51CC8 /* Screenshot02.png */; };
 		E5161952264FE48800D51CC8 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5161950264FE48800D51CC8 /* Screenshot01.png */; };
+		E5161955264FE64E00D51CC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5161954264FE64E00D51CC8 /* README.md */; };
 		E5F42E3E24F5863A00224461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42E3D24F5863A00224461 /* AppDelegate.swift */; };
 		E5F42E4024F5863A00224461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42E3F24F5863A00224461 /* SceneDelegate.swift */; };
 		E5F42E4224F5863A00224461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42E4124F5863A00224461 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		E516194F264FE48800D51CC8 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E5161950264FE48800D51CC8 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5161954264FE64E00D51CC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "MyBrowser/Supporting files/README.md"; sourceTree = SOURCE_ROOT; };
 		E5F42E3A24F5863A00224461 /* MyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F42E3D24F5863A00224461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F42E3F24F5863A00224461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 				E5F42E3D24F5863A00224461 /* AppDelegate.swift */,
 				E5F42E3F24F5863A00224461 /* SceneDelegate.swift */,
 				E5F42E4B24F5863B00224461 /* Info.plist */,
+				E5161954264FE64E00D51CC8 /* README.md */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5161955264FE64E00D51CC8 /* README.md in Resources */,
 				E5F42E4A24F5863B00224461 /* LaunchScreen.storyboard in Resources */,
 				E5F42E4724F5863B00224461 /* Assets.xcassets in Resources */,
 				E5F42E4524F5863A00224461 /* Main.storyboard in Resources */,
