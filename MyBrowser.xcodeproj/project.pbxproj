@@ -40,6 +40,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5161929264FDC1400D51CC8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42E3D24F5863A00224461 /* AppDelegate.swift */,
+				E5F42E3F24F5863A00224461 /* SceneDelegate.swift */,
+				E5F42E4B24F5863B00224461 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5161943264FE07600D51CC8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42E4324F5863A00224461 /* Main.storyboard */,
+				E5F42E4824F5863B00224461 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5161944264FE08200D51CC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42E4624F5863B00224461 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E5F42E3124F5863A00224461 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +87,10 @@
 		E5F42E3C24F5863A00224461 /* MyBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				E5F42E3D24F5863A00224461 /* AppDelegate.swift */,
-				E5F42E3F24F5863A00224461 /* SceneDelegate.swift */,
 				E5F42E4124F5863A00224461 /* ViewController.swift */,
-				E5F42E4324F5863A00224461 /* Main.storyboard */,
-				E5F42E4624F5863B00224461 /* Assets.xcassets */,
-				E5F42E4824F5863B00224461 /* LaunchScreen.storyboard */,
-				E5F42E4B24F5863B00224461 /* Info.plist */,
+				E5161943264FE07600D51CC8 /* Storyboards */,
+				E5161944264FE08200D51CC8 /* Source */,
+				E5161929264FDC1400D51CC8 /* Supporting files */,
 			);
 			path = MyBrowser;
 			sourceTree = "<group>";
@@ -106,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Nikita Kochetov";
 				TargetAttributes = {
 					E5F42E3924F5863A00224461 = {
@@ -204,6 +228,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -228,6 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MyBrowser/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -264,6 +290,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,6 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MyBrowser/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -298,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = MyBrowser/Info.plist;
+				INFOPLIST_FILE = "MyBrowser/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = MyBrowser/Info.plist;
+				INFOPLIST_FILE = "MyBrowser/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
