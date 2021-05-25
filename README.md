@@ -1,6 +1,6 @@
 # MyBrowser
 
-Simple browser  for testing WebKit.
+Simple browser for practice WebKit.
 
 # Installation
 
